@@ -11,6 +11,7 @@ mod Q24;
 mod Q26;
 mod Q26_2;
 mod Q26_3;
+mod Q27;
 mod Q30;
 mod Q30_2;
 mod Q32i;
