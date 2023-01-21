@@ -28,6 +28,7 @@ mod Q32ii;
 mod Q32ii_2;
 mod Q32iii;
 mod Q34;
+mod Q40;
 mod Q42;
 mod Q45;
 mod Q48;
