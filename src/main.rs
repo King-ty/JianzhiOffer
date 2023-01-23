@@ -63,6 +63,7 @@ mod Q63;
 mod Q65;
 mod Q66;
 mod Q66_2;
+mod Q67;
 
 fn main() {
     println!("Hello, world!");
