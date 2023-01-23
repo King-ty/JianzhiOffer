@@ -28,6 +28,8 @@ mod Q28;
 mod Q29;
 mod Q30;
 mod Q30_2;
+mod Q31;
+mod Q31_2;
 mod Q32i;
 mod Q32ii;
 mod Q32ii_2;
