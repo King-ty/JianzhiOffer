@@ -5,6 +5,7 @@ mod II002;
 mod II003;
 mod II004;
 mod II005;
+mod II006;
 mod Q03;
 mod Q04;
 mod Q05;
