@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "outDir": "./built",
+    "allowJs": true,
+    "target": "es2015",
+    "rootDir": "./src",
+    // 是否编译构建引用项目,很复杂后面介绍
+    "noImplicitAny": true,
+    // null类型检测,const teacher: string = null;会报错
+    "strictNullChecks": true,
+    // 对函数参数进行严格逆变比较
+    "strictFunctionTypes": true,
+    // 严格检查bind call apply
+    "strictBindCallApply": true,
+    // 此规则将验证构造函数内部初始化前后已定义的属性。
+    "strictPropertyInitialization": true,
+    // 检测this是否隐式指定
+    "noImplicitThis": true,
+    // 使用js的严格模式,在每一个文件上部声明 use strict
+    "alwaysStrict": true,
+    /* Additional Checks */
+    // 默认false,是否检测定义了但是没使用的变量
+    "noUnusedLocals": true,
+    // 用于检查是否有在函数体中没有使用的参数
+    "noUnusedParameters": true,
+    // 用于检查函数是否有返回值，设为true后，如果函数没有返回值则会提示
+    "noImplicitReturns": true,
+    // 用于检查switch中是否有case没有使用break跳出switch
+    "noFallthroughCasesInSwitch": true
+    /* Module Resolution Options */
+    // 用于选择模块解析策略，有'node'和'classic'两种类型
+  },
+  "include": ["./src/**/*"]
+}
