@@ -17,7 +17,7 @@ function evalRPN(tokens: string[]): number {
                     numSt.push(x * y);
                     break;
                 case "/":
-                    numSt.push((x - x % y) / y);
+                    numSt.push((x - x % y) / y); // js整除比较坑
                     break;
             }
         }
