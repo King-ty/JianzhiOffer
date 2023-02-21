@@ -24,6 +24,10 @@ public:
       pq.pop();
       // ret.emplace_back(initializer_list<int>{nums1[x], nums2[y]});
       ret.push_back({nums1[x], nums2[y]});
+      /// 为什么不能直接写ret.emplace_back({nums1[x], nums2[y]});？
+      /// https://stackoverflow.com/questions/20391632/how-to-use-stdvectoremplace-back-for-vectorvectorint
+      /// 因为编译器不能推导2次类型，即{x,y}->initializer_list<int>{x,y}->vector<int>{x,y}
+      /// 但是push_back是可以的
       if (y < n - 1) {
         // pq.emplace(x, y + 1);
         pq.push({x, y + 1});
