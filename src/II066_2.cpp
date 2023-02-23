@@ -6,6 +6,7 @@
 
 using namespace std;
 
+// 听说暴力法很厉害，实测不如字典树法
 class MapSum {
   unordered_map<string, int> cnt;
 
