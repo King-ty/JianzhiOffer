@@ -1,5 +1,3 @@
-use core::num;
-
 struct Solution;
 
 // 有顺序的多重背包？朴素多重背包两层枚举反过来
