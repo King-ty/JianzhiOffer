@@ -2,7 +2,7 @@ use core::num;
 
 struct Solution;
 
-// 某种特殊的背包？两层枚举反过来
+// 有顺序的多重背包？朴素多重背包两层枚举反过来
 impl Solution {
     pub fn combination_sum4(mut nums: Vec<i32>, target: i32) -> i32 {
         let target = target as usize;
