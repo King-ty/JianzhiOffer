@@ -164,6 +164,8 @@ mod Q66;
 mod Q66_2;
 mod Q67;
 mod hot003;
+mod hot004;
+mod hot004_2;
 
 fn main() {
     println!("Hello, world!");
