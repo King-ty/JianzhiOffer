@@ -169,6 +169,7 @@ mod hot004_2;
 mod hot005;
 mod hot010;
 mod hot011;
+mod hot015;
 
 fn main() {
     println!("Hello, world!");
